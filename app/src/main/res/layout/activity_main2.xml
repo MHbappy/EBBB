@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context="com.blood.bappy.ebbb.Main2Activity">
+
+
+    <Button
+        android:id="@+id/donar_Registration_btn"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/donarRegistration"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/list_of_donar"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/donarList"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/need_blood"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/needBlood"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/search_by_location_btn"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/searchBylocation"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/account_btn"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/account"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/about_us"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/about_us"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+</LinearLayout>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_donar_registration"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+
+    android:orientation="vertical"
+    tools:context="com.blood.bappy.ebbb.DonarRegistration">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:orientation="vertical">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:hint="@string/hint_name"
+                        android:inputType="textPersonName"
+                        android:textColor="@android:color/white"
+                        android:textColorHint="@android:color/white" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/address"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:hint="@string/address"
+                        android:inputType="text"
+                        android:textColor="@android:color/white"
+                        android:textColorHint="@android:color/white" />
+                </android.support.design.widget.TextInputLayout>
+
+
+                <Spinner
+                    android:id="@+id/sex"
+                    style="@style/Widget.AppCompat.Spinner.DropDown"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="10dp" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/occupation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:hint="@string/ocuupation"
+                        android:inputType="text"
+                        android:textColor="@android:color/white"
+                        android:textColorHint="@android:color/white" />
+                </android.support.design.widget.TextInputLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/dateOfBirthButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Date Of Birth" />
+
+                    <TextView
+                        android:id="@+id/dateOfBirthText"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dateOfBirth"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/emailOfDonar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:hint="@string/email"
+                        android:inputType="textEmailAddress"
+                        android:textColor="@android:color/white"
+                        android:textColorHint="@android:color/white" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/phoneNumberOfDonar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:hint="@string/phone"
+                        android:inputType="phone"
+                        android:textColor="@android:color/white"
+                        android:textColorHint="@android:color/white" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/nationalIdNo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:hint="@string/nationalIdNo"
+                        android:inputType="number"
+                        android:textColor="@android:color/white"
+                        android:textColorHint="@android:color/white" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/age"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:hint="@string/age"
+                        android:inputType="number"
+                        android:textColor="@android:color/white"
+                        android:textColorHint="@android:color/white" />
+                </android.support.design.widget.TextInputLayout>
+
+
+                <Button
+                    android:id="@+id/Save"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Date Of Birth" />
+            </LinearLayout>
+
+
+            </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>
