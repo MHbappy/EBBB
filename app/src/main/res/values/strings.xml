@@ -42,11 +42,28 @@
     <string name="sex">Sex</string>
     <string name="ocuupation">Occupation</string>
     <string name="bloodGruoup">Blood Group</string>
+
     <string name="phone">phone</string>
     <!--email is already exists-->
     <string name="dateOfBirth">(date-month-year)</string>
     <string name="nationalIdNo">National Id No</string>
     <string name="age">Age</string>
     <string name="lastDonationDate">Last Donation Date</string>
+    <string name="location">Location</string>
+    <string name="emergencyBloodNeed">Emergency Blood Need</string>
+
+    <!--for card view-->
+    <string name="bloodGruoupc">Blood Group : </string>
+    <string name="donarNamec">Name : </string>
+    <string name="donarAddressc">Address : </string>
+    <string name="donarSexc">Sex : </string>
+    <string name="donarAgec">Age : </string>
+    <string name="donarPhoneNoc">Phone : </string>
+    <string name="donarEmailc">Email : </string>
+    <string name="donarNationaNoc">National ID : </string>
+    <string name="donarOccupationc">Occupation : </string>
+    <string name="donarLocationc">Location : </string>
+    <string name="name">Name</string>
+
 
 </resources>

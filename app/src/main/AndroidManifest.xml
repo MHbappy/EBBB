@@ -37,15 +37,19 @@
             android:name=".ResetPasswordActivity"
             android:label="@string/title_activity_reset_password"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".DonarRegistration"
+        <activity
+            android:name=".DonarRegistration"
             android:label="@string/donarRegistration"
-            android:theme="@style/AppTheme"
-            />
-        <activity android:name=".ListOFdonar" />
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ListOFdonar"
+            android:label="@string/donarRegistration"
+            android:theme="@style/AppTheme" />
         <activity android:name=".NeedBlood" />
         <activity android:name=".SearchByLocation" />
         <activity android:name=".Main2Activity" />
-        <activity android:name=".AboutUs"></activity>
+        <activity android:name=".AboutUs" />
+        <activity android:name=".PostForBlood"></activity>
     </application>
 
 </manifest>

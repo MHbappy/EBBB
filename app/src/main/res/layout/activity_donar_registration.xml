@@ -46,6 +46,23 @@
                     android:layout_height="wrap_content">
 
                     <EditText
+                        android:id="@+id/bloodGroup"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:hint="@string/bloodGruoup"
+                        android:inputType="text"
+                        android:textColor="@android:color/white"
+                        android:textColorHint="@android:color/white" />
+                </android.support.design.widget.TextInputLayout>
+
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
                         android:id="@+id/address"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -164,10 +181,10 @@
 
 
                 <Button
-                    android:id="@+id/Save"
+                    android:id="@+id/donarRegistrationBtn"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Date Of Birth" />
+                    android:text="Register" />
             </LinearLayout>
 
 
